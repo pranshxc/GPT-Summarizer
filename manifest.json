@@ -28,6 +28,7 @@
     "action": {},
     "host_permissions": [
         "https://*.openai.com/*"
+        "https://*.chatgpt.com/*"
     ],
     "permissions": [
         "storage",

@@ -53,7 +53,7 @@ export const createOrUpdateAuthorizeTab = async () => {
 
     // If chatGPT tab does not exist, create it
     if (!await chatGPTTabExists()) {
-        chrome.tabs.create({ url: 'https://chat.openai.com/chat' });
+        chrome.tabs.create({ url: 'https://chatgpt.com/' });
     }
     // Otherwise, update the tab and reload it
     else {
